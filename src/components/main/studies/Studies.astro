@@ -3,9 +3,9 @@ import { studies } from "../../../const/const";
 ---
 
 <section class="section_studies">
-  <div class="linear-grandient-1"></div>
+  <div class="linear-gradient-1"></div>
   <div class="content_studies">
-    <h3 class="title-studies" id="studies">Estudios</h3>
+    <h3 class="title-studies" id="studies">Studies</h3>
     <ul class="ul-studies">
       {
         studies.map(({ date, title, corporation }) => (
@@ -33,15 +33,13 @@ import { studies } from "../../../const/const";
     justify-content: center;
     align-items: center;
   }
-  .linear-grandient-1 {
+  .linear-gradient-1 {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    /* background: radial-gradient(at left center, rgba(1, 190, 150 , 0.5), transparent , transparent); */
     background: linear-gradient(to top, rgba(1, 190, 150, 0.5), #000);
-    background: ;
     z-index: 0;
   }
   .content_studies {

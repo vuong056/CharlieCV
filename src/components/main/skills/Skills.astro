@@ -1,15 +1,23 @@
 ---
 import { skills } from "../../../const/const";
 import { getIconComponent } from "../../../icons/IconAll.astro";
+
+const filteredSkills = skills.filter(({ title }) => 
+  title === 'MongoDB' || 
+  title === 'React.js' || 
+  title === 'Node.js' || 
+  title === 'GitHub' || 
+  title === 'Git'
+);
 ---
 
 <section class="section-skill">
-  <div class="linear-grandient-1"></div>
+  <div class="linear-gradient-1"></div>
   <div class="container-skill">
-    <h2 class="title-skills" id="skills">Habilidades</h2>
+    <h2 class="title-skills" id="skills">Software Skills</h2>
     <ul class="ul-skill">
       {
-        skills.map(({ icon, title }) => {
+        filteredSkills.map(({ icon, title }) => {
           const IconComponent = getIconComponent(icon);
           return (
             <li class="li-skills">
@@ -63,7 +71,7 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
   .p-skill {
     padding: 5px 0;
   }
-  .linear-grandient-1 {
+  .linear-gradient-1 {
     position: absolute;
     left: 0;
     top: 0;

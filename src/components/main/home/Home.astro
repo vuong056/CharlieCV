@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import photoperfil from "../../../../public/img/photo-perfil.webp";
+import charlieimage from "../../../../public/img/charlievuong.webp";
 ---
 
 <div class="content-presentation">
@@ -53,17 +53,16 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
         </div>
       </div>      
       <p class="p-presentation">
-        I am a Computer Engineering PhD Student with a focus in Human-Computer Interaction, advised by Dr. Cesar Torres at UT Arlington. 
+        I am a Computer Engineering PhD Student with a focus in Human-Computer Interaction, advised by Dr. Cesar Torres at UT Arlington.
         <br><br>
-        <strong>My research interest:</strong> Materials Interaction, Sensing, Wearable, and Medical Devices
-      </p>
-      
+        My research interest: Materials Interaction, Sensing, Wearable, and Medical Devices
+      </p>      
       <div class="container-curriculum">
-        <a href="https://wa.me/+573166026155" target="_blank" class="a-action"
+        <a href="mailto:hxv6892@mavs.uta.edu" target="_blank" class="a-action"
           >Let's Talk</a
         >
         <a
-          href="https://drive.google.com/file/d/1VKgzg5L6JUiRx5d3_kOIjIeQRmthdhM2/view?usp=sharing"
+          href="https://docs.google.com/document/d/1-DpBK0FKELFJNZy_ADhKhxHIr6lmWM1M/edit"
           class="a-curriculum"
           target="_blank">View Resume</a
         >
@@ -89,7 +88,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
       <div class="photo-perfil">
         <picture>
           {/* If you are not using vercel, place a normal <img> tag */}
-          <Image src={photoperfil} alt="Charlie Vuong" id="inicio" />
+          <Image src={charlieimage} alt="Charlie Vuong" id="inicio" />
         </picture>
       </div>
     </div>
@@ -113,261 +112,381 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
 </script>
 
 <style>
-  .content-presentation {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  .linear-gradient-1 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 500px;
-    height: 520px;
-    background: radial-gradient(
-      at left center,
-      rgba(1, 190, 150, 0.5),
-      transparent,
-      transparent
-    );
-    z-index: 0;
-  }
-  .linear-gradient-2 {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(
-      at right center,
-      rgba(1, 190, 150, 0.6),
-      rgb(0, 0, 0),
-      rgb(0, 0, 0)
-    );
-    z-index: 0;
-  }
 
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-Light.eot');
+    src: local('Proto Mono Light'), local('ProtoMono-Light'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.eot');
+    src: local('Proto Mono Semi Bold Shadow'), local('ProtoMono-SemiBoldShadow'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.eot');
+    src: local('Proto Mono Light Shadow'), local('ProtoMono-LightShadow'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.eot');
+    src: local('Proto Mono Regular Shadow'), local('ProtoMono-RegularShadow'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.eot');
+    src: local('Proto Mono Regular'), local('ProtoMono-Regular'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.eot');
+    src: local('Proto Mono Medium Shadow'), local('ProtoMono-MediumShadow'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.eot');
+    src: local('Proto Mono Semi Bold'), local('ProtoMono-SemiBold'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proto Mono';
+    src: url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.eot');
+    src: local('Proto Mono Medium'), local('ProtoMono-Medium'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.woff2') format('woff2'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.woff') format('woff'),
+        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.highlight {
+  background-color: #928c72; /* Change this color as needed */
+  padding: 0 4px;           /* Optional: Adds some spacing around the highlight */
+  font-weight: bold;         /* Optional: Keeps the text bold */
+  border-radius: 4px;        /* Optional: Adds a slight border radius */
+}
+
+.content-presentation {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.linear-gradient-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: 520px;
+  background: radial-gradient(
+    at left center,
+    rgba(1, 190, 150, 0.5),
+    transparent,
+    transparent
+  );
+  z-index: 0;
+}
+
+.linear-gradient-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    at right center,
+    rgba(1, 190, 150, 0.6),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+  z-index: 0;
+}
+
+.container-persentation {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1355px;
+}
+
+.container-text {
+  font-family: 'Proto Mono', monospace; /* Applying Proto Mono */
+  position: relative;
+  width: 50%;
+  color: #f6f6f9;
+}
+
+.text-hello {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.text-name {
+  font-family: 'Proto Mono', monospace;
+  padding: 5px 0;
+  font-size: 30px;
+  color: #01be96;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.container-profession {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.p-profession {
+  font-family: 'Proto Mono', monospace;
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.bouncing {
+  transition: 0.8s all;
+  color: #01be96;
+  animation: rubberband 400ms alternate ease-out;
+}
+
+@keyframes rubberband {
+  10% {
+    transform: scaleX(1);
+  }
+  40% {
+    transform: scaleX(1.12) scaleY(0.75);
+  }
+  55% {
+    transform: scaleX(0.85) scaleY(1);
+  }
+  75% {
+    transform: scaleX(0.9) scaleY(1);
+  }
+  90% {
+    transform: scaleX(1.85) scaleY(0.95);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+.p-presentation {
+  font-family: 'Proto Mono', monospace;
+  padding: 12px 0;
+  font-size: 19px;
+  width: 90%;
+  text-align: left;
+}
+
+.container-curriculum {
+  position: relative;
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.a-action {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  border: 1px solid #01be96;
+  font-size: 18px;
+  background-color: #01be96;
+  text-decoration: none;
+  color: #f6f6f9;
+  transition: 0.3s;
+}
+
+.a-action:hover {
+  transform: translateX(4px);
+}
+
+.a-curriculum {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  color: #f6f6f9;
+  border: 1px solid #01be96;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.a-curriculum:hover {
+  background-color: rgba(1, 190, 150, 0.3);
+  transform: translateX(4px);
+}
+
+.container-social {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.container-social a {
+  text-decoration: none;
+}
+
+.li-social {
+  position: relative;
+  list-style: none;
+  background-color: #01be96;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 40px;
+}
+
+.li-social i {
+  font-size: 25px;
+  color: #f6f6f9;
+}
+
+.li-social:hover {
+  transform: rotate(-360deg);
+}
+
+.container-photo-profile {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-perfil {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 110px;
+  border-radius: 50%;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.photo-perfil img {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(-10px -5px 10px #000) contrast(110%);
+  transition: 0.3s;
+}
+
+/* responsive */
+@media (max-width: 900px) {
   .container-persentation {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    padding: 50px 0;
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1355px;
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 30px;
+    padding-top: 100px;
+  }
+  .container-photo-profile {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+  }
+  .photo-perfil {
+    margin: 0;
   }
   .container-text {
-    position: relative;
-    width: 50%;
-    color: #f6f6f9;
+    width: 100%;
   }
-  .text-hello {
-    padding: 10px 0;
-    font-size: 20px;
-  }
+}
 
-  .text-name {
-    padding: 5px 0;
-    font-size: 30px;
-    color: #01be96;
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-top: 30px;
-  }
-  .container-profession {
-    cursor: pointer;
-    padding: 5px 0;
-  }
-  .p-profession {
-    font-size: 30px;
-    font-weight: 800;
-    cursor: pointer;
-    display: inline-block;
-    text-transform: capitalize;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  }
-
-  .bouncing {
-    transition: 0.8s all;
-    color: #01be96;
-    animation: rubberband 400ms alternate ease-out;
-  }
-
-  @keyframes rubberband {
-    10% {
-      transform: scaleX(1);
-    }
-    40% {
-      transform: scaleX(1.12) scaleY(0.75);
-    }
-    55% {
-      transform: scaleX(0.85) scaleY(1);
-    }
-    75% {
-      transform: scaleX(0.9) scaleY(1);
-    }
-    90% {
-      transform: scaleX(1.85) scaleY(0.95);
-    }
-    100% {
-      transform: scaleX(1) scaleY(1);
-    }
-  }
-
+@media (max-width: 640px) {
   .p-presentation {
-    padding: 12px 0;
-    font-size: 19px;
-    width: 90%;
-    text-align: left;
+    width: 100%;
   }
+}
 
+@media (max-width: 500px) {
   .container-curriculum {
-    position: relative;
-    padding: 40px 0;
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
-  .a-action {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 30px;
-    border: 1px solid #01be96;
-    font-size: 18px;
-    background-color: #01be96;
-    text-decoration: none;
-    color: #f6f6f9;
-    transition: 0.3s;
+  .linear-gradient-1 {
+    display: none;
   }
-  .a-action:hover {
-    transform: translateX(4px);
-  }
-
-  .a-curriculum {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 30px;
-    color: #f6f6f9;
-    border: 1px solid #01be96;
-    font-size: 18px;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-
-  .a-curriculum:hover {
-    background-color: rgba(1, 190, 150, 0.3);
-    transform: translateX(4px);
-  }
-
-  .container-social {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .container-social a {
-    text-decoration: none;
-  }
-
-  .li-social {
-    position: relative;
-    list-style: none;
-    background-color: #01be96;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 40px;
-  }
-
-  .li-social i {
-    font-size: 25px;
-    color: #f6f6f9;
-  }
-
-  .li-social:hover {
-    transform: rotate(-360deg);
-  }
-
-  .container-photo-profile {
-    position: relative;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .photo-perfil {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    height: 300px;
-    width: 300px;
-    margin-top: 30px;
-    margin-left: 110px;
-    border-radius: 50%;
-    z-index: 10;
-    background: rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    /* border-radius: 64% 36% 29% 71% / 59% 79% 21% 41%; */
-  }
-
-  .photo-perfil img {
-    position: relative;
-    display: block;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    filter: drop-shadow(-10px -5px 10px #000) contrast(110%);
-    transition: 0.3s;
-  }
-
-   {
-    /* responsive*/
-  }
-  @media (max-width: 900px) {
-    .container-persentation {
-      flex-direction: column-reverse;
-      height: auto;
-      gap: 30px;
-      padding-top: 100px;
-    }
-    .container-photo-profile {
-      width: 100%;
-      justify-content: center;
-      justify-items: center;
-      margin: 0;
-    }
-    .photo-perfil {
-      margin: 0;
-    }
-    .container-text {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 640px) {
-    .p-presentation {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 500px) {
-    .container-curriculum {
-      display: flex;
-      gap: 10px;
-    }
-    .linear-gradient-1 {
-      display: none;
-    }
-  }
+}
 </style>
