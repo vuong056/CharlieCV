@@ -38,6 +38,7 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  labview: "labview",
   // Add more icon keys here
 };
 
@@ -122,6 +123,10 @@ export const skills = [
     title: "MongoDB",
     icon: IconKeys.mongodb,
   },
+  {
+    title: "LabVIEW",
+    icon: IconKeys.labview,
+  },
 ];
 
 export const projects = [
@@ -161,6 +166,13 @@ export const projects = [
     description: `Appling EnKF for denoising ECG signals, alongside a comparative analysis of various filtering algorithm.`,
     technologies: [],
   },
+  // {
+  //   img: "../../../img/rodent3.png",
+  //   title: "Rodent Local field potentials Board (2021)",
+  //   link: "https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2020/83549/V001T10A011/1085710",
+  //   description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
+  //   technologies: [],
+  // },
   {
     img: "../../../img/Magicoil.png",
     title: "MagiCoil (2019)",
@@ -168,4 +180,12 @@ export const projects = [
     description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
     technologies: [],
   },
+
+  // {
+  //   img: "../../../img/acist.png",
+  //   title: "X-rays Testing Device - ACIST Medical Systems, Inc. (2019)",
+  //   link: "https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2020/83549/V001T10A011/1085710",
+  //   description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
+  //   technologies: [],
+  // },
 ];
