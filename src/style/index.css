@@ -1,4 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Lato:wght@400;700&display=swap");
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-Light.eot');
+  src: local('Proto Mono Light'), local('ProtoMono-Light'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Light.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Light.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Light.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.eot');
+  src: local('Proto Mono Semi Bold Shadow'), local('ProtoMono-SemiBoldShadow'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.eot');
+  src: local('Proto Mono Light Shadow'), local('ProtoMono-LightShadow'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.eot');
+  src: local('Proto Mono Regular Shadow'), local('ProtoMono-RegularShadow'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.eot');
+  src: local('Proto Mono Regular'), local('ProtoMono-Regular'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.eot');
+  src: local('Proto Mono Medium Shadow'), local('ProtoMono-MediumShadow'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.eot');
+  src: local('Proto Mono Semi Bold'), local('ProtoMono-SemiBold'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proto Mono';
+  src: url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.eot');
+  src: local('Proto Mono Medium'), local('ProtoMono-Medium'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.woff2') format('woff2'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.woff') format('woff'),
+      url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,15 +117,21 @@ html {
   --text: "Lato", sans-serif;
 }
 body {
-  font-family: "ABeeZee", sans-serif;
-  background-color: #000;
+  font-family: "Proto Mono", sans-serif;
+  background-color: #09090b;
+  color: #f3f4f6;
 }
+
+p {
+  font-family: sans-serif;
+}
+
 html::-webkit-scrollbar {
   background-color: #46465e;
   width: 10px;
 }
 html::-webkit-scrollbar-thumb {
-  background-color: #01be96;
+  background-color: #38bdf8;
   border-radius: 20px;
   width: 10px;
 }

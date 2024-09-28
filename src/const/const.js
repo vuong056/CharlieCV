@@ -126,52 +126,46 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/tasks-manager.webp",
-    title: "ECG Denoising with EnKF",
+    img: "../../../img/neonbending.png_ha.png",
+    title: "Tacit Skills in Neon Bending (2024)",
+    link: "https://hybridatelier.uta.edu/projects/101-physicalizing-tacit-skills-in-neon-bending-with-breathing-sensory-data",
+    description: `Physicalizing tacit skills in Neon Bending with breathing sensory data for glass bending tutorial through vibrotactile, color, and sonic feedback.`,
+    technologies: [],
+  },
+  {
+    img: "../../../img/claymold__2_.png_ha.png",
+    title: "CaseCast (2024)",
+    link: "https://hybridatelier.uta.edu/projects/102-casecast",
+    description: `Using computational slip casting, stamping, and sprigging as a batch Fabrication toolkit for crafting electronic enclosures`,
+    technologies: [],
+  },
+  {
+    img: "../../../img/eARTh__2_.png_ha.png",
+    title: "Under our Feet (2024)",
+    link: "https://hybridatelier.uta.edu/projects/93-under-our-feet",
+    description: `Using speculative design explore how foraging for wild clay can inform human-material interaction and more-than-human design`,
+    technologies: [],
+  },
+
+  {
+    img: "../../../img/nozzle.PNG_ha.png",
+    title: "Computational Slip Casting (2023)",
+    link: "https://hybridatelier.uta.edu/projects/85-computational-slip-casting",
+    description: `Navigating clay practices with computational slip casting using peristaltic pumps, addressing challenges in composition, pulsation, and geometry control.`,
+    technologies: [],
+  },
+  {
+    img: "../../../img/ECG_EnKF.png",
+    title: "ECG Denoising with EnKF (2022)",
     link: "https://ieeexplore.ieee.org/abstract/document/9871884",
     description: `Appling EnKF for denoising ECG signals, alongside a comparative analysis of various filtering algorithm.`,
-    technologies: [
-      // {
-      //   icon: IconKeys.typeScript,
-      // },
-      // {
-      //   icon: IconKeys.nextjs,
-      // },
-      // {
-      //   icon: IconKeys.tailwind,
-      // },
-      // {
-      //   icon: IconKeys.zustand,
-      // },
-      // {
-      //   icon: IconKeys.shadcn,
-      // },
-    ],
+    technologies: [],
   },
-  // {
-  //   img: "../../../img/ecommerce-stripe-2.webp",
-  //   title: "Ecommerce Stripe",
-  //   link: "https://ecommerce-stripe-763m.vercel.app/",
-  //   description: `Full-stack eCommerce project with integrated Stripe payment gateway, product details, etc.`,
-  //   technologies: skills.map(skill => ({
-  //     icon: skill.icon,
-  //   })),
-  // },  
   {
-    img: "../../../img/nexanime.webp",
-    title: "MagiCoil",
+    img: "../../../img/Magicoil.png",
+    title: "MagiCoil (2019)",
     link: "https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2020/83549/V001T10A011/1085710",
     description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
-    technologies: [
-      // {
-      //   icon: IconKeys.typeScript,
-      // },
-      // {
-      //   icon: IconKeys.nextjs,
-      // },
-      // {
-      //   icon: IconKeys.tailwind,
-      // },
-    ],
+    technologies: [],
   },
 ];

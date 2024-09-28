@@ -14,7 +14,6 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
         <div>
           <span class="p-profession">P</span>
           <span class="p-profession">h</span>
-          <span class="p-profession">.</span>
           <span class="p-profession">D</span>
           <span class="">&nbsp;</span>
           <span class="p-profession">S</span>
@@ -53,10 +52,12 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
         </div>
       </div>      
       <p class="p-presentation">
-        I am a Computer Engineering PhD Student with a focus in Human-Computer Interaction, advised by Dr. Cesar Torres at UT Arlington.
+        I am a Computer Engineering PhD Student with a focus in Human-Computer Interaction, advised by 
+        <a href="http://cearto.com/" target="_blank" class="highlight-link">Dr. Cesar Torres</a> at UT Arlington.
         <br><br>
         My research interest: Materials Interaction, Sensing, Wearable, and Medical Devices
-      </p>      
+      </p>
+      
       <div class="container-curriculum">
         <a href="mailto:hxv6892@mavs.uta.edu" target="_blank" class="a-action"
           >Let's Talk</a
@@ -93,6 +94,9 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
       </div>
     </div>
   </dir>
+  <div class="background-waves">
+    <img class="waves-img" src="/img/waves.svg" alt="waves" />
+  </div>
 </div>
 
 <script>
@@ -113,110 +117,6 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
 
 <style>
 
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-Light.eot');
-    src: local('Proto Mono Light'), local('ProtoMono-Light'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.eot');
-    src: local('Proto Mono Semi Bold Shadow'), local('ProtoMono-SemiBoldShadow'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBoldShadow.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.eot');
-    src: local('Proto Mono Light Shadow'), local('ProtoMono-LightShadow'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-LightShadow.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.eot');
-    src: local('Proto Mono Regular Shadow'), local('ProtoMono-RegularShadow'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-RegularShadow.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.eot');
-    src: local('Proto Mono Regular'), local('ProtoMono-Regular'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.eot');
-    src: local('Proto Mono Medium Shadow'), local('ProtoMono-MediumShadow'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-MediumShadow.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.eot');
-    src: local('Proto Mono Semi Bold'), local('ProtoMono-SemiBold'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proto Mono';
-    src: url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.eot');
-    src: local('Proto Mono Medium'), local('ProtoMono-Medium'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.woff2') format('woff2'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.woff') format('woff'),
-        url('/workspaces/CharlieCV/public/font/ProtoMono-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
 .highlight {
   background-color: #928c72; /* Change this color as needed */
   padding: 0 4px;           /* Optional: Adds some spacing around the highlight */
@@ -230,7 +130,7 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
   height: 100%;
 }
 
-.linear-gradient-1 {
+/* .linear-gradient-1 {
   position: absolute;
   left: 0;
   top: 0;
@@ -258,7 +158,7 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
     rgb(0, 0, 0)
   );
   z-index: 0;
-}
+} */
 
 .container-persentation {
   position: relative;
@@ -268,13 +168,14 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
   width: 90%;
   margin: 0 auto;
   max-width: 1355px;
+  z-index: 10;
 }
 
 .container-text {
   font-family: 'Proto Mono', monospace; /* Applying Proto Mono */
   position: relative;
   width: 50%;
-  color: #f6f6f9;
+  color: #e2e8f0;
 }
 
 .text-hello {
@@ -286,7 +187,7 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
   font-family: 'Proto Mono', monospace;
   padding: 5px 0;
   font-size: 30px;
-  color: #01be96;
+  color: #fcd34d;
   font-weight: 800;
   letter-spacing: 1px;
   margin-top: 30px;
@@ -308,9 +209,20 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
 
 .bouncing {
   transition: 0.8s all;
-  color: #01be96;
+  color: #5bd7ec;
   animation: rubberband 400ms alternate ease-out;
 }
+.highlight-link {
+  color:  #06b6d4; /* Example: Yellowish color */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold; /* Optional: makes the text bold */
+}
+
+.highlight-link:hover {
+  color:#4451c2; /* Example: Changes color on hover to a bluish tone */
+  text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
 
 @keyframes rubberband {
   10% {
@@ -334,7 +246,6 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
 }
 
 .p-presentation {
-  font-family: 'Proto Mono', monospace;
   padding: 12px 0;
   font-size: 19px;
   width: 90%;
@@ -354,11 +265,11 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
   justify-content: center;
   align-items: center;
   padding: 10px 30px;
-  border: 1px solid #01be96;
+  border: 1px solid #06b6d4;
   font-size: 18px;
-  background-color: #01be96;
+  background-color: #06b6d4;
   text-decoration: none;
-  color: #f6f6f9;
+  color: #e2e8f0;
   transition: 0.3s;
 }
 
@@ -372,15 +283,15 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
   justify-content: center;
   align-items: center;
   padding: 10px 30px;
-  color: #f6f6f9;
-  border: 1px solid #01be96;
+  color: #e2e8f0;
+  border: 1px solid #06b6d4;
   font-size: 18px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .a-curriculum:hover {
-  background-color: rgba(1, 190, 150, 0.3);
+  background-color: #8ED1FC;
   transform: translateX(4px);
 }
 
@@ -400,7 +311,7 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
 .li-social {
   position: relative;
   list-style: none;
-  background-color: #01be96;
+  background-color: #06b6d4;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   display: flex;
   justify-content: center;
@@ -411,7 +322,7 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
 
 .li-social i {
   font-size: 25px;
-  color: #f6f6f9;
+  color: #e2e8f0;
 }
 
 .li-social:hover {
@@ -450,6 +361,22 @@ import charlieimage from "../../../../public/img/charlievuong.webp";
   width: 100%;
   filter: drop-shadow(-10px -5px 10px #000) contrast(110%);
   transition: 0.3s;
+}
+
+.background-waves {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.waves-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 /* responsive */
