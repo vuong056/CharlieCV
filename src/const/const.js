@@ -166,13 +166,13 @@ export const projects = [
     description: `Appling EnKF for denoising ECG signals, alongside a comparative analysis of various filtering algorithm.`,
     technologies: [],
   },
-  // {
-  //   img: "../../../img/rodent3.png",
-  //   title: "Rodent Local field potentials Board (2021)",
-  //   link: "https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2020/83549/V001T10A011/1085710",
-  //   description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
-  //   technologies: [],
-  // },
+  {
+    img: "../../../img/rodent3.png",
+    title: "Rodent Local field potentials Board (2021)",
+    link: "https://sensoriis.com/research-and-development/small-animal-physiological-sensing/",
+    description: `Weareable local field potentials sensing device to small animal such as rodents and frogs in their free-moving environment.`,
+    technologies: [],
+   },
   {
     img: "../../../img/Magicoil.png",
     title: "MagiCoil (2019)",
@@ -180,12 +180,12 @@ export const projects = [
     description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
     technologies: [],
   },
-
-  // {
-  //   img: "../../../img/acist.png",
-  //   title: "X-rays Testing Device - ACIST Medical Systems, Inc. (2019)",
-  //   link: "https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2020/83549/V001T10A011/1085710",
-  //   description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
-  //   technologies: [],
-  // },
+  {
+    img: "../../../img/acist.png",
+    title: "Compatible Testing Device for X-ray Contrast Injection System (2019)",
+    link: "https://acist.com/products/acist-cvi/",
+    description: `ISI communication protocol with 24 I/O signal control and communication throught serial communication
+`,
+    technologies: [],
+  },
 ];
