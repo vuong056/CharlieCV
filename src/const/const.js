@@ -130,13 +130,13 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    img: "../../../img/neonbending.png_ha.png",
-    title: "Tacit Skills in Neon Bending (2024)",
-    link: "https://hybridatelier.uta.edu/projects/101-physicalizing-tacit-skills-in-neon-bending-with-breathing-sensory-data",
-    description: `Physicalizing tacit skills in Neon Bending with breathing sensory data for glass bending tutorial through vibrotactile, color, and sonic feedback.`,
-    technologies: [],
-  },
+  // {
+  //   img: "../../../img/neonbending.png_ha.png",
+  //   title: "Tacit Skills in Neon Bending (2024)",
+  //   link: "https://hybridatelier.uta.edu/projects/101-physicalizing-tacit-skills-in-neon-bending-with-breathing-sensory-data",
+  //   description: `Physicalizing tacit skills in Neon Bending with breathing sensory data for glass bending tutorial through vibrotactile, color, and sonic feedback.`,
+  //   technologies: [],
+  // },
   {
     img: "../../../img/claymold__2_.png_ha.png",
     title: "CaseCast (2024)",
