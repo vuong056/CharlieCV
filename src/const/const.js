@@ -146,7 +146,7 @@ export const projects = [
   },
   {
     img: "../../../img/eARTh__2_.png_ha.png",
-    title: "Under our Feet (2024)",
+    title: "Under Our Feet (2024)",
     link: "https://hybridatelier.uta.edu/projects/93-under-our-feet",
     description: `Using speculative design explore how foraging for wild clay can inform human-material interaction and more-than-human design`,
     technologies: [],
@@ -168,7 +168,7 @@ export const projects = [
   },
   {
     img: "../../../img/rodent3.png",
-    title: "Rodent Local field potentials Board (2021)",
+    title: "Rodent Local Field Potentials (2021)",
     link: "https://sensoriis.com/research-and-development/small-animal-physiological-sensing/",
     description: `Weareable local field potentials sensing device to small animal such as rodents and frogs in their free-moving environment.`,
     technologies: [],
