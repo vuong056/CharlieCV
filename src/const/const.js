@@ -138,6 +138,13 @@ export const projects = [
   //   technologies: [],
   // },
   {
+    img: "../../../img/rheomap.png",
+    title: "RheoMap (CHI 2025 - honorable mention)",
+    link: "https://dl.acm.org/doi/10.1145/3706598.3713835",
+    description: `Mapping Inks, Gels, Pastes, and Slurries within a Rheological Embedding Space using Retraction-Extrusion Pressure Sensor Vectors`,
+    technologies: [],
+  },
+  {
     img: "../../../img/claymold__2_.png_ha.png",
     title: "CaseCast (2024)",
     link: "https://hybridatelier.uta.edu/projects/102-casecast",
@@ -161,7 +168,7 @@ export const projects = [
   },
   {
     img: "../../../img/ECG_EnKF.png",
-    title: "ECG Denoising with EnKF (2022)",
+    title: "ECG Denoising with EnKF (EMBC 2022)",
     link: "https://ieeexplore.ieee.org/abstract/document/9871884",
     description: `Appling EnKF for denoising ECG signals, alongside a comparative analysis of various filtering algorithm.`,
     technologies: [],
@@ -175,7 +182,7 @@ export const projects = [
    },
   {
     img: "../../../img/Magicoil.png",
-    title: "MagiCoil (2019)",
+    title: "MagiCoil (DMD - 2020)",
     link: "https://asmedigitalcollection.asme.org/BIOMED/proceedings/DMD2020/83549/V001T10A011/1085710",
     description: `Magnetic particle spectroscopy testing kit for portable, highly-sensitive, in vitro, and easy-to-use immunoassays.`,
     technologies: [],
@@ -184,8 +191,7 @@ export const projects = [
     img: "../../../img/acist.png",
     title: "Compatible Testing Device for X-ray Contrast Injection System (2019)",
     link: "https://acist.com/products/acist-cvi/",
-    description: `ISI communication protocol with 24 I/O signal control and communication throught serial communication
-`,
+    description: `ISI communication protocol with 24 I/O signal control and communication throught serial communication`,
     technologies: [],
   },
 ];
